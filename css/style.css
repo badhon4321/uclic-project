@@ -966,7 +966,8 @@ ul.uclic-box li a .icon {
 .before-footer-inner .social li i {
     margin-right: 8px;
 }
-.before-footer footer h4{
+
+.before-footer footer h4 {
     color: white;
     text-align: center;
     font-family: OutrequeLight;
@@ -978,3 +979,120 @@ ul.uclic-box li a .icon {
 }
 
 /* before footer part end here */
+
+
+/* second page start here */
+
+
+/* sp-one start here */
+.sp-one {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: #FFF6E3;
+    border-radius:0px 0px 40px 40px;
+    border-bottom: 2px solid black;
+}
+
+.sp-one-inner .left {
+    display: flex;
+}
+.sp-one-inner .left .left-dot{
+    margin: 10px;
+    padding: 8px 0px;
+}
+.sp-one-inner .left .left-dot .yellow i {
+    color: #FFE458;
+    border: 1px solid black;
+    border-radius: 60%;
+}
+
+.sp-one-inner .left .girl-here {
+    width: 540px;
+    position: relative;
+}
+.sp-one-inner .left .girl-here .yellow{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #FFE458;
+    position: absolute;
+    bottom: 100px;
+    left: -35px;
+}
+.sp-one-inner .left .girl-here .green{
+    width: 140px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: #37AB73;
+    position: absolute;
+    bottom: -10px;
+    right: -20px;
+    transform: rotate(-30deg);
+}
+
+.sp-one-inner .left .girl-here img {
+    width: 100%;
+    /* height: 100%; */
+}
+
+.sp-one-inner .right {
+    padding: 10px 28px;
+    margin-left: 30px;
+}
+
+.sp-one-inner .right h2 {
+    font-family: OutrequeLight;
+    font-weight: 300;
+    font-size: 46px;
+    letter-spacing: -0.07em;
+}
+
+.sp-one-inner .right h2 span {
+    font-family: OutrequeMedium;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -0.07em;
+}
+
+.sp-one-inner .right p {
+    font-family: OutrequeLight;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 31px;
+    padding: 26px 0px;
+    margin-bottom: 30px;;
+}
+
+.sp-one-inner .right a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 14px 30px;
+    border-radius: 30px;
+    font-family: OutrequeMedium;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: -0.02em;
+}
+.sp-one-inner .right a i{
+    padding-right: 10px;
+}
+.sp-second .heading h2{
+    font-family: OutrequeMedium;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;   
+    letter-spacing: -0.07em;
+    text-align: center;
+}
+.sp-third{
+    margin: 100px 0px;
+}
+/* blog post start here */
+
+
+
+/* blog post end here */
+/* sp-one end here */
