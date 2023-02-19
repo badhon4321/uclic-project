@@ -1,0 +1,981 @@
+/* default css */
+.container_c {
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sassy+Frass&display=swap');
+/* font family
+font-family: 'Sassy Frass',
+cursive; */
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: Outreque;
+}
+
+@font-face {
+    font-family: OutrequeRegular;
+    src: url('../font/OutrequeRegular.ttf');
+}
+
+@font-face {
+    font-family: OutrequeMedium;
+    src: url('../font/OutrequeMedium.ttf');
+}
+
+@font-face {
+    font-family: OutrequeLight;
+    src: url('../font/OutrequeLight.ttf');
+}
+
+@font-face {
+    font-family: OutrequeBold;
+    src: url(../font/OutrequeBold.ttf);
+}
+
+@font-face {
+    font-family: OutrequeBlack;
+    src: url(../font/OutrequeBlack.ttf);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+.top-space {
+    padding: 50px 0px;
+}
+
+body {}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f6cf7d;
+    border-radius: 50px 50px 0px 0px;
+}
+
+header .logo h3 {
+    font-family: OutrequeLight;
+    font-style: normal;
+    font-size: 57px;
+    line-height: 112px;
+    font-weight: 300;
+    /* letter-spacing: -0.07em; */
+    color: #000000;
+}
+
+header .logo span {
+    font-family: OutrequeRegular;
+}
+
+.menu {
+    margin-top: 30px;
+}
+
+.menu ul li {
+    padding: 16px 22px;
+    display: inline-block;
+}
+
+.menu ul li a {
+    font-family: OutrequeMedium;
+    font-style: normal;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu .how {
+    font-family: OutrequeBold;
+    font-style: normal;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    padding: 10px 18px;
+}
+
+.menu .sign {
+    background-color: black;
+    border-radius: 100px;
+    padding: 15px 36px;
+    color: #FFFFFF;
+}
+
+.hero {
+    display: flex;
+    /* width: 80%; */
+    margin: 0 auto;
+    padding-top: 30px;
+    background-color: #eec56e;
+    border-bottom: 2px solid black;
+    border-radius: 0px 0px 50px 50px;
+    /* justify-content: space-around; */
+}
+
+.hero .passage {
+    margin: 30px 50px;
+    margin-right: 100px;
+
+}
+
+.hero .passage h2 {
+    font-family: OutrequeMedium;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 57.6px;
+    letter-spacing: -0.03em;
+    color: #202020;
+}
+
+.hero .passage h3 {
+    font-family: OutrequeLight;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 57.6px;
+    letter-spacing: -0.04em;
+    color: #202020;
+    padding: 10px 0px;
+}
+
+.hero .passage h4 {
+    font-family: 'OutrequeMedium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: -0.07em;
+    color: #202020;
+    padding: 20px 0px;
+}
+
+.hero .hero-btn {
+    border: none;
+    margin-top: 20px;
+    background-color: black;
+    border-radius: 100px;
+}
+
+.hero .hero-btn h4 {
+    font-family: OutrequeMedium;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+    padding: 12px 35px;
+    color: #FFFFFF;
+}
+
+.hero .picture {
+    position: relative;
+    width: 600px;
+}
+
+.hero .picture .frame {
+    position: relative;
+}
+
+.hero .picture .frame img {
+    width: 200px;
+    margin-left: 140px;
+    margin-top: 50px;
+}
+
+.hero .picture .huhiuhi {
+    position: absolute;
+    content: '';
+    top: -18px;
+    right: 80px;
+}
+
+.hero .picture .huhiuhi img {
+    width: 430px;
+}
+
+.hero .picture .circle {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    border: 2px solid black;
+    border-radius: 100%;
+    bottom: 100px;
+    left: 20px;
+}
+
+.hero .picture .circle .black-shape {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 100%;
+    left: 90px;
+    top: 30px;
+}
+
+.hero .picture .green-shape {
+    position: absolute;
+    width: 200px;
+    height: 110px;
+    background-color: rgb(42, 110, 42);
+    border-radius: 100px;
+    top: 80px;
+    left: 350px;
+    transform: rotate(140deg);
+}
+
+.hero .picture .blue-shape {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    border-radius: 100%;
+    top: 230px;
+    left: 360px;
+}
+
+/* join part start here */
+.join .join-inner h2 {
+    font-family: OutrequeBold;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: -0.07em;
+    color: #000000;
+    text-align: center;
+}
+
+.join .compani-name {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.join .compani-name .mailgun {
+    width: 210px;
+    height: 210px;
+    background-color: pink;
+    border-radius: 100%;
+    margin-top: 70px;
+}
+
+.join .compani-name .salesloft {
+    width: 210px;
+    height: 210px;
+    border: 1px solid black;
+    border-radius: 100%;
+    margin-top: 50px;
+}
+
+.join .compani-name .easynote {
+    width: 210px;
+    height: 210px;
+    background-color: pink;
+    border-radius: 100%;
+    margin-top: 30px;
+}
+
+.join .compani-name .pandadoc {
+    width: 210px;
+    height: 210px;
+    border: 1px solid black;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+
+/* join part end here */
+/* work part start here */
+.work h2 {
+    font-family: OutrequeBold;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: -0.07em;
+    color: #000000;
+}
+
+.work-inner {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 60px; */
+}
+
+.work-inner .left .tryit {
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 40px;
+    background-color: rgb(251, 225, 230);
+
+}
+
+.work-inner .left .tryit h1 {
+    font-family: OutrequeBold;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: -0.02em;
+    line-height: 31px;
+}
+
+.work-inner .left .tryit h4 {
+    font-family: OutrequeLight;
+    font-weight: 300;
+    font-size: 24px;
+    letter-spacing: 0.0015em;
+    line-height: 24px;
+}
+
+.work-inner .left .tryit form input {
+    width: 340px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin: 20px 0px;
+}
+
+.work-inner .left .do {
+    margin-top: 50px;
+}
+
+.work-inner .left .do h1 {
+    font-family: OutrequeBold;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: -0.02em;
+    padding: 30px 0px;
+}
+
+.work-inner .left .do h4 {
+    font-family: OutrequeLight;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 31px;
+    letter-spacing: -0.02em;
+    margin-left: 20px;
+}
+
+.work-inner .left .mail {
+    display: flex;
+}
+
+.work-inner .left .mail i {
+    height: 100%;
+    padding: 8px;
+    color: rgb(232, 229, 229);
+    background-color: green;
+    border-radius: 50%;
+}
+
+.work-inner .left .fb {
+    display: flex;
+    padding: 20px 0px;
+}
+
+.work-inner .left .fb i {
+    color: rgb(11, 116, 140);
+    font-size: 30px;
+}
+
+.work-inner .left .x2 {
+    display: flex;
+    font-family: OutrequeBold;
+    align-items: center;
+}
+
+.work-inner .left .x2 .x22 {
+    background-color: #f6cf7d;
+    font-family: OutrequeBold;
+}
+
+span.x22 {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+}
+
+.work-inner .right {
+    border: 1px solid black;
+    border-radius: 40px;
+}
+
+.work-inner .right .green-div {
+    width: 100%;
+    height: 70px;
+    background-color: green;
+    border-radius: 39px 39px 0px 0px;
+}
+
+.work-inner .right form {
+    padding: 0px 30px;
+
+}
+
+.work-inner .right form label {
+    font-family: OutrequeBold;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.work-inner .right form h6 {
+    font-family: OutrequeBold;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.55);
+}
+
+.work-inner .right form::placeholder {
+    font-family: OutrequeLight;
+}
+
+.work-inner .right input {
+    margin: 10px 0px;
+    border: none;
+}
+
+.work-inner .right .to {
+    margin-top: 20px;
+    border-bottom: 2px solid rgb(147, 147, 147);
+}
+
+.work-inner .right .sub {
+    border-bottom: 2px solid rgb(147, 147, 147);
+    margin-bottom: 30px;
+}
+
+.work-inner .right .green-diiv {
+    width: 84%;
+    height: 260px;
+    margin: 30px auto;
+    border-radius: 20px;
+    background-color: yellow;
+}
+
+/* work part end here */
+/* compatiable part start here */
+.compatiable {
+    width: 900px;
+    margin: 0 auto;
+    background-color: #FFF6E3;
+    border-radius: 60px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.compatiable .compatiable-inner h2 {
+    font-family: OutrequeLight;
+    font-weight: 300px;
+    font-size: 36px;
+    line-height: 40px;
+    font-style: normal;
+    letter-spacing: 0.0025em;
+    padding: 26px 0px;
+}
+
+.compatiable .compatiable-inner h2 .bold {
+    font-family: OutrequeBold;
+    font-weight: 700px;
+    font-size: 35px;
+    line-height: 69px;
+    letter-spacing: -0.07em;
+}
+
+.compatiable .compatiable-inner .white-logos {
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: #4D5ACD;
+    padding: 20px 0px;
+    position: relative;
+}
+
+.top-logo .logos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-logo .logos .expandi {
+    margin-top: 20px;
+}
+
+.top-logo .logos .replay {
+    margin-top: 20px;
+}
+
+.top-logo .logos .prospectin {
+    margin-top: 25px;
+}
+
+.white-logos .bottom-logo {
+    margin-left: 30px;
+}
+
+.white-logos .bottom-logo img {
+    padding: 0px 10px;
+}
+
+.compatiable .compatiable-inner .three-round {
+    display: flex;
+    justify-content: center;
+}
+
+.compatiable .three-round .single-round {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.compatiable .three-round .single-round img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.compatiable .three-round .zapier-round {
+    background-color: #FFE458;
+}
+
+.compatiable .three-round .sheets-round {
+    background-color: #37AB73;
+    margin: 0px 36px;
+}
+
+.compatiable .three-round .integ-round {
+    background-color: #4D5ACD;
+}
+
+/* compatiable part end here */
+/* install part start here */
+.install {
+    margin-bottom: 400px;
+}
+
+.install .headline {
+    text-align: center;
+}
+
+.install h2 {
+    font-family: OutrequeBold;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -0.07em;
+}
+
+.install h3 {
+    font-family: OutrequeLight;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.0025em;
+}
+
+.install-inner .install-box {
+    justify-content: space-evenly;
+}
+
+.install .long-sq-box {
+    border-radius: 20px;
+    border: 1px solid navy;
+    color: white;
+}
+
+.mx-auto.inner-line {}
+
+.install .long-sq-box .outer-line {
+    width: 87%;
+    height: 170px;
+    border: 2px solid black;
+    position: relative;
+    border-radius: 20px;
+    margin: 20px 0px;
+    background-color: white;
+    box-shadow: 10px 8px black;
+}
+
+.install .long-sq-box .inner-line {
+    padding: 60px 89px;
+
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.install-box .long-sq-box h4 {
+    font-family: OutrequeMedium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 24px;
+    padding: 6px 24px;
+}
+
+.install-box .long-sq-box p {
+    font-family: OutrequeLight;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.0015em;
+    padding: 20px 28px;
+}
+
+.install-inner .first-box {
+    background-color: #37AB73;
+}
+
+.install-inner .first-box .inner-line {
+    background-color: #37AB73;
+    border: 2px solid black;
+}
+
+.install-inner .second-box {
+    background-color: #4D5ACD;
+}
+
+.install-inner .second-box .inner-line {
+    background-color: #4D5ACD;
+}
+
+/* .install-inner .second-box .inner-line .small-line{
+    border: 1px solid;
+}
+.install-inner .second-box .inner-line .big-line{
+    border: 1px solid;
+} */
+.install-inner .third-box {
+    background-color: #FFE458;
+}
+
+.install-inner .third-box .inner-line {
+    background-color: #FFE458;
+}
+
+.install-inner .third-box h4 {
+    color: black;
+}
+
+.install-inner .third-box p {
+    color: black;
+}
+
+
+/*ms*/
+ul.uclic-box li a {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+ul.uclic-box li a .icon {
+    margin-right: 20px;
+}
+
+/* install part end here */
+/* rate part start here */
+.rate .heading h2 {
+    font-family: OutrequeLight;
+    font-weight: 300;
+    font-size: 36px;
+
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 18px 28px;
+}
+
+.rate h2 strong {
+    font-weight: 700;
+}
+
+.rate-inner .black-div {
+    background-color: #000000;
+    border-radius: 40px;
+}
+
+.rate-inner .two-side-white {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.rate-inner .black-div .two-side-white .left-white {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 0px 20px 20px 0px;
+
+}
+
+.rate-inner .black-div .two-side-white .right-white {
+    border-radius: 20px 0px 0px 20px;
+}
+
+.black-div h4 {
+    text-align: center;
+    color: white;
+    font-family: OutrequeLight;
+    font-weight: 300;
+    font-size: 20px;
+
+}
+
+.rate-box {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.rate-box .first-rate {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.rate-box .first-rate .top-things {
+    text-align: center;
+    color: black;
+    padding: 18px;
+}
+
+.rate-box .first-rate .top-things h3 {
+    font-family: OutrequeBold;
+    font-weight: 300;
+    font-size: 30px;
+
+}
+
+.rate-box .first-rate .top-things h5 {
+    font-family: OutrequeLight;
+    font-weight: 300;
+    font-size: 30px;
+
+}
+
+.rate-box .first-rate .top-things h2 {
+    font-family: OutrequeBold;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 10px 0px;
+}
+
+.first-rate .bottom-things ul li a {
+    text-decoration: none;
+    font-family: OutrequeLight;
+    font-weight: 300;
+    font-size: 30px;
+    color: #000000;
+}
+
+.bottom-things .start-now-btn {
+
+    text-align: center;
+}
+
+.bottom-things .start-now-btn a {
+    color: white;
+    background-color: #000000;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+/* rate part end here */
+/* before footer part start here */
+.before-footer {
+    background-color: #000000;
+    border-radius: 30px;
+    padding: 16px;
+}
+
+.before-footer-inner .single-part {
+    color: white;
+}
+
+.before-footer-inner .uclic-part p {
+    padding-right: 48px;
+    color: white;
+}
+
+.before-footer-inner h4 {
+    font-family: OutrequeMedium;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 8px 0px;
+}
+
+.before-footer-inner p {
+    font-family: OutrequeLight;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 24px;
+    padding: 8px 0px;
+}
+
+.before-footer-inner .uclic-part h2 {
+    color: white;
+    font-family: OutrequeLight;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 112px;
+    letter-spacing: -0.07em;
+    /* padding: 10px 0px; */
+}
+
+.before-footer-inner .uclic-part span {
+    font-family: OutrequeLight;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 112px;
+    letter-spacing: -0.07em;
+}
+
+.before-footer-inner .uclic-part .prospectin {
+    font-family: OutrequeLight;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.before-footer-inner .navigation ul li {
+    font-family: OutrequeLight;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 24px;
+    padding: 10px 0px;
+}
+
+.before-footer-inner .navigation ul li i {
+    margin-right: 6px;
+}
+
+.before-footer-inner .navigation .log-btn {
+    font-family: OutrequeMedium;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 26px;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 20px 0px;
+    border-radius: 30px;
+}
+
+.before-footer-inner .navigation .log-btn a {
+    color: #000000;
+    text-decoration: none;
+    font-family: OutrequeMedium;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 26px;
+
+
+}
+
+.before-footer-inner .navigation .yellow {
+    background-color: #FFE458;
+}
+
+.before-footer-inner .navigation .green {
+    color: white;
+    background-color: #37AB73;
+}
+
+.before-footer-inner .navigation .gray {
+    background-color: #FFFFFF;
+}
+
+.before-footer-inner .blog p {
+    font-family: OutrequeLight;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.before-footer-inner .social ul {
+    display: flex;
+    color: white;
+    padding: 20px 0px;
+}
+
+.before-footer-inner .social ul li a {
+    font-size: 28px;
+    color: white;
+    padding: 0px 12px;
+}
+
+.before-footer-inner .social p {
+    font-family: OutrequeLight;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 24px;
+    padding: 8px 0px;
+}
+
+.before-footer-inner .social h3 {
+    font-family: OutrequeBold;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: -0.02em;
+    /* padding: 0px 0px; */
+    margin-top: 40px;
+}
+
+.before-footer-inner .social li {
+    font-family: OutrequeLight;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.before-footer-inner .social li i {
+    margin-right: 8px;
+}
+.before-footer footer h4{
+    color: white;
+    text-align: center;
+    font-family: OutrequeLight;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 31px;
+    text-decoration: underline;
+    margin-top: 100px;
+}
+
+
+/* before footer part end here */
