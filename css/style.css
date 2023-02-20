@@ -816,6 +816,157 @@ ul.uclic-box li a .icon {
 }
 
 /* rate part end here */
+/* clients part start here */
+.clients .heading h2 {
+    font-family: OutrequeBold;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: -0.07em;
+}
+
+.clients .heading h3 {
+    font-family: OutrequeLight;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.0025em;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.clients-inner {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.clients-inner .single-client {
+
+    border: 2px solid black;
+
+    padding: 20px 26px;
+
+    border-radius: 30px;
+}
+
+.clients-inner .single-client .name-pic {
+    display: flex;
+    align-items: center;
+}
+
+.single-client .name-pic .picture {
+    width: 40px;
+    margin-right: 12px;
+    /* align-items: center; */
+}
+
+.single-client .name-pic .picture img {
+    width: 100%;
+
+}
+
+.single-client .name-pic .name h3 {
+    font-family: OutrequeBold;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: -0.02em;
+}
+
+.single-client .name-pic .name p {
+    font-family: OutrequeMedium;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.0015em;
+    color: #737373;
+}
+
+.single-client .biodata p {
+    font-family: OutrequeLight;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.0015em;
+    margin-top: 22px;
+}
+
+/* clients part end here */
+/* better part start here  */
+.better {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF6E3;
+    border-radius: 30px;
+}
+
+.better .heading {
+    margin-top: 63px;
+    margin-left: 80px;
+    margin-bottom: 70px;
+}
+
+.better .heading h2 {
+    width: 493px;
+    height: 173px;
+    font-family: OutrequeLight;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -0.07em;
+}
+
+.better .heading span {
+    font-family: OutrequeBold;
+    font-weight: 700;
+}
+
+.better .heading h3 {
+    width: 418px;
+    height: 93px;
+    margin-top: 16px;
+    margin-bottom: 64px;
+    font-family: OutrequeLight;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 31px;
+}
+
+.better .heading ul li a {
+    width: 300px;
+    height: 68px;
+    color: white;
+    background-color: #000000;
+    padding: 18px 32px;
+    border-radius: 36px;
+    font-family: OutrequeMedium;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+}
+
+.better .sitting-girl {
+    width: 460px;
+    height: 580px;
+    margin-right: 80px;
+}
+
+.better .sitting-girl img {
+    width: 100%;
+    height: 100%;
+    /* margin-right: 80px; */
+}
+
+
+
+/* better part end here  */
+
+
 /* before footer part start here */
 .before-footer {
     background-color: #000000;
@@ -989,17 +1140,23 @@ ul.uclic-box li a .icon {
     padding-top: 50px;
     padding-bottom: 100px;
     background-color: #FFF6E3;
-    border-radius:0px 0px 40px 40px;
+    border-radius: 0px 0px 40px 40px;
     border-bottom: 2px solid black;
+}
+
+.sp-one-inner {
+    display: flex;
 }
 
 .sp-one-inner .left {
     display: flex;
 }
-.sp-one-inner .left .left-dot{
+
+.sp-one-inner .left .left-dot {
     margin: 10px;
     padding: 8px 0px;
 }
+
 .sp-one-inner .left .left-dot .yellow i {
     color: #FFE458;
     border: 1px solid black;
@@ -1010,7 +1167,8 @@ ul.uclic-box li a .icon {
     width: 540px;
     position: relative;
 }
-.sp-one-inner .left .girl-here .yellow{
+
+.sp-one-inner .left .girl-here .yellow {
     width: 80px;
     height: 80px;
     border-radius: 50%;
@@ -1019,7 +1177,8 @@ ul.uclic-box li a .icon {
     bottom: 100px;
     left: -35px;
 }
-.sp-one-inner .left .girl-here .green{
+
+.sp-one-inner .left .girl-here .green {
     width: 140px;
     height: 80px;
     border-radius: 50px;
@@ -1061,7 +1220,8 @@ ul.uclic-box li a .icon {
     font-size: 26px;
     line-height: 31px;
     padding: 26px 0px;
-    margin-bottom: 30px;;
+    margin-bottom: 30px;
+    ;
 }
 
 .sp-one-inner .right a {
@@ -1076,23 +1236,69 @@ ul.uclic-box li a .icon {
     line-height: 31px;
     letter-spacing: -0.02em;
 }
-.sp-one-inner .right a i{
+
+.sp-one-inner .right a i {
     padding-right: 10px;
 }
-.sp-second .heading h2{
+
+.sp-second .heading h2 {
     font-family: OutrequeMedium;
     font-weight: 500;
     font-size: 48px;
-    line-height: 58px;   
+    line-height: 58px;
     letter-spacing: -0.07em;
     text-align: center;
 }
-.sp-third{
+
+.sp-third {
     margin: 100px 0px;
 }
+
 /* blog post start here */
+.blog-post .heading h2 {
+    font-family: OutrequeMedium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: -0.07em;
+    text-align: center;
+}
+.blog-post-inner .post-box {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
 
+.blog-post-inner .post-box .single-box .passage {
+    border: 2px solid black;
+    border-radius: 0px 0px 26px 26px;
+}
 
+.blog-post-inner .post-box .single-box .passage h3 {
+    font-family: OutrequeMedium;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+}
+
+.blog-post-inner .post-box .single-box .passage h4 {
+    font-family: OutrequeLight;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.0015em;
+}
+
+.single-box .h4-part {
+    display: flex;
+    /* background-color: red; */
+}
+
+.single-box .h4-part .right-icon {
+    align-items: center;
+}
 
 /* blog post end here */
 /* sp-one end here */
