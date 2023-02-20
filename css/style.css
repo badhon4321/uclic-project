@@ -671,13 +671,6 @@ span.x22 {
 .install-inner .second-box .inner-line {
     background-color: #4D5ACD;
 }
-
-/* .install-inner .second-box .inner-line .small-line{
-    border: 1px solid;
-}
-.install-inner .second-box .inner-line .big-line{
-    border: 1px solid;
-} */
 .install-inner .third-box {
     background-color: #FFE458;
 }
@@ -1273,6 +1266,7 @@ ul.uclic-box li a .icon {
 .blog-post-inner .post-box .single-box .passage {
     border: 2px solid black;
     border-radius: 0px 0px 26px 26px;
+    padding: 20px 30px;
 }
 
 .blog-post-inner .post-box .single-box .passage h3 {
@@ -1289,16 +1283,22 @@ ul.uclic-box li a .icon {
     font-size: 18px;
     line-height: 24px;
     letter-spacing: 0.0015em;
+    
 }
 
 .single-box .h4-part {
     display: flex;
-    /* background-color: red; */
+}
+.single-box .h4-part .right-icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-left: 50px; */
+}
+.single-box .h4-part .right-icon i{
+    font-size: 50px;
 }
 
-.single-box .h4-part .right-icon {
-    align-items: center;
-}
 
 /* blog post end here */
 /* sp-one end here */
