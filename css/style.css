@@ -59,6 +59,7 @@ li {
 .top-space {
     padding: 50px 0px;
 }
+
 header {
     width: 100%;
     display: flex;
@@ -477,6 +478,7 @@ span.x22 {
     border-radius: 20px;
     background-color: yellow;
 }
+
 /* work part end here */
 
 /* compatiable part start here */
@@ -666,6 +668,7 @@ span.x22 {
 .install-inner .second-box .inner-line {
     background-color: #4D5ACD;
 }
+
 .install-inner .third-box {
     background-color: #FFE458;
 }
@@ -696,19 +699,28 @@ ul.uclic-box li a .icon {
 
 /* install part end here */
 /* rate part start here */
+
+.rate .heading {
+    padding: 20px 0px;
+    border: 2px solid black;
+    border-radius: 26px;
+}
+
 .rate .heading h2 {
+    width: 651px;
+    height: 92px;
     font-family: OutrequeLight;
     font-weight: 300;
     font-size: 36px;
-
-    text-align: center;
-    border: 2px solid black;
-    border-radius: 30px;
-    padding: 18px 28px;
+    line-height: 40px;
+    letter-spacing: 0.0025em;
+    margin: 0 auto;
 }
 
 .rate h2 strong {
+    font-family: OutrequeBlack;
     font-weight: 700;
+
 }
 
 .rate-inner .black-div {
@@ -716,32 +728,34 @@ ul.uclic-box li a .icon {
     border-radius: 40px;
 }
 
-.rate-inner .two-side-white {
+.rate .two-side-white {
     display: flex;
     justify-content: space-between;
-
+    background-color: black;
 }
 
-.rate-inner .black-div .two-side-white .left-white {
-    width: 200px;
+.rate .two-side-white .left-white {
+    width: 355px;
     height: 50px;
     background-color: white;
-    border: 1px solid white;
-    border-radius: 0px 20px 20px 0px;
-
+    /* border: 1px solid red; */
+    border-radius: 0px 24px 24px 0px;
 }
 
-.rate-inner .black-div .two-side-white .right-white {
-    border-radius: 20px 0px 0px 20px;
+.rate .two-side-white .right-white {
+    border-radius: 24px 0px 0px 24px;
 }
 
 .black-div h4 {
-    text-align: center;
-    color: white;
-    font-family: OutrequeLight;
-    font-weight: 300;
-    font-size: 20px;
-
+    Width: 350px; 
+    Height: 20px;
+    margin: 0 auto;
+    font-family: OutrequeBlack;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 19px;
+    letter-spacing: -0.07em;
+    color: #FFFFFF;
 }
 
 .rate-box {
@@ -942,6 +956,7 @@ ul.uclic-box li a .icon {
     width: 100%;
     height: 100%;
 }
+
 /* better part end here  */
 
 
@@ -1240,6 +1255,7 @@ ul.uclic-box li a .icon {
     letter-spacing: -0.07em;
     text-align: center;
 }
+
 .blog-post-inner .post-box {
     display: flex;
     justify-content: space-around;
@@ -1266,18 +1282,20 @@ ul.uclic-box li a .icon {
     font-size: 18px;
     line-height: 24px;
     letter-spacing: 0.0015em;
-    
+
 }
 
 .single-box .h4-part {
     display: flex;
 }
-.single-box .h4-part .right-icon{
+
+.single-box .h4-part .right-icon {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.single-box .h4-part .right-icon i{
+
+.single-box .h4-part .right-icon i {
     font-size: 50px;
     margin-left: 30px;
 }
